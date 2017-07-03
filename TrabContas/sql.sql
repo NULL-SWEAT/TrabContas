@@ -1,0 +1,13 @@
+CREATE TABLE conta (
+    id SERIAL NOT NULL PRIMARY KEY,
+    codigo VARCHAR(255),
+    valor NUMERIC
+)
+
+INSERT INTO conta VALUES ('1', '1.01');
+INSERT INTO conta VALUES ('2', '1.01.01');
+INSERT INTO conta VALUES ('3', '1.01.01.01');
+INSERT INTO conta VALUES ('4', '1.01.01.01.0001', 25);
+INSERT INTO conta VALUES ('5', '1.01.01.02');
+INSERT INTO conta VALUES ('6', '1.01.01.02.0001', 50.30);
+INSERT INTO conta VALUES ('7', '1.01.01.02.0002', 10);
