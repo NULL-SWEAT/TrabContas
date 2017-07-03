@@ -1,3 +1,5 @@
+CREATE DATABASE contas;
+
 CREATE TABLE conta (
     id SERIAL NOT NULL PRIMARY KEY,
     codigo VARCHAR(255),
